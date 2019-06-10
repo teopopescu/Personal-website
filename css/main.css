@@ -473,8 +473,6 @@ header{
 .skillset .container{
 	padding-top:66px ;
 	padding-bottom:64px ;
-	margin-left: 30px;
-	margin-right: 0;
 }
 .skillbar {
 	position:relative;
@@ -713,7 +711,7 @@ span.hoverBox{
 	-webkit-transition-duration: 0.2s;
 	
 	background: rgba(76, 64, 78, 0);
-	
+
 }
 ul.portfolioContainer li:hover span.hoverBox{
 	visibility:visible;
@@ -734,10 +732,23 @@ span.hoverBox .smallIcon{
 	width: 74x;
 	margin: 0px auto;
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-left: -80px;
-	margin-top: -37px;
+	top: 30%;
+	margin-left: 20px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.projectText {
+
+	font-size: 18px;
+    padding-bottom: 0;
+    font-weight: 300;
+    text-transform: none;
+    letter-spacing: 1px;
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
+
+
 }
 
 span.hoverBox .zoom{
